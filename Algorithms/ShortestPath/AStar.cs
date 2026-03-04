@@ -1,6 +1,6 @@
 ﻿namespace LearnCS.Algorithms.ShortestPath
 {
-    internal static class AStar
+    internal class AStar
     {
         class Location
         {
@@ -21,7 +21,7 @@
                 "     X       XXX  ",
                 "     X       XXX  ",
                 "   XXX  XX   X    ",
-                "         XXXXXXXXX",
+                "         XX     XX",
                 "XX    X    X      ",
                 "                 B",
                 "+----------------+",
