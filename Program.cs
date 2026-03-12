@@ -1,14 +1,17 @@
-﻿using LearnCS.Project_Euler;
-using Microsoft.Data.SqlClient;
-
-namespace LearnCS
+﻿namespace LearnCS
 {
+    using LearnCS.Project_Euler;
+    using Microsoft.Data.SqlClient;
+
     internal class Program
     {
         static void Main(string[] args)
         {
             //DataBase();
-            Console.WriteLine(string.Join(",", E2.FibSequence(20)));
+            Console.WriteLine(Cryptograpghy.XORCipher("Hello World!", "myd"));
+            Thread.Sleep(10000);
+            Console.WriteLine(Cryptograpghy.XORCipher("Hello World!", "myd"));
+
         }
 
         private static void DataBase()
